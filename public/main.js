@@ -53,7 +53,7 @@ function checkAnswer(selected) {
    
   }
 }
-//next riddle: let's use condition if
+//next riddle: let's use condition if. ref: https://codepen.io/tgrowden/pen/pepzjg?anon=true&view=pen
 nextBtn.addEventListener('click', () => {
   currentRiddle++;
   if (currentRiddle >= riddles.length) {
